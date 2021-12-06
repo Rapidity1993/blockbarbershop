@@ -21,6 +21,18 @@ a {
   text-decoration: none;
   color: #333;
 }
+#firstSection {
+  background-color: #333;
+}
+#firstSection-price {
+  background-color: white;
+}
+#connection-design {
+  background-color: #bd8f4a;
+  border-radius: 5px;
+  border: 2px #333 solid;
+  color: white;
+}
 .container {
   position: relative;
   width: 1170px;
@@ -377,7 +389,7 @@ h2 {
   font-family: "Roboto Slab", sans-serif;
   text-align: center;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.5em;
 }
 .signature {
   padding-top: 10px;
@@ -400,6 +412,15 @@ h2 {
 
 .reset:after {
   display: none !important;
+}
+.priceImg {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+}
+#trademark {
+  background-color: black;
+  color: #c7a065;
 }
 /* 
   Slider with Content
