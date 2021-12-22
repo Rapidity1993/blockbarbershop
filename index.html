@@ -9,14 +9,19 @@
   </head>
   <body>
     <header>
-      <a href="index.html"><h1 class="logo">BLOCK</h1></a>
+      <a href="index.html"
+        ><img
+          class="logo-image"
+          src="images/blocklogo-removebg-preview.png"
+          alt=""
+      /></a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <nav>
         <ul>
-          <li><a href="#">Borbélyaink</a></li>
-          <li><a href="#">Kapcsolat</a></li>
+          <li id="workers"><a href="#">Borbélyaink</a></li>
+          <li id="connection"><a href="#">Kapcsolat</a></li>
           <li><a href="prices.html">Árlista</a></li>
-          <li><a href="#">Galéria</a></li>
+          <li><a href="galery.html">Galéria</a></li>
         </ul>
       </nav>
       <label for="nav-toggle" class="nav-toggle-label">
@@ -52,25 +57,25 @@
       </div>
     </div>
 
-    <div id="workers" class="section">
+    <div id="workers" name="workers" class="section">
       <div class="container">
-        <h1 id="barbers">Borbélyaink</h1>
-        <div class="col three">
+        <h1 id="barbers" name="barbers">Borbélyaink</h1>
+        <div class="worker-container">
           <div class="pictureholder">
-            <img class="profilepictures" src="" alt="" />
+            <img class="profilepictures" src="images/main2.jpg" alt="" />
           </div>
           <h1 class="feature side">Veres Norbert</h1>
           <p class="side">Mesterfodrász</p>
           <div class="buttonholder">
             <a href="https://n634317.yclients.com/">
-              <button class="reserve small">
+              <button class="btn btn-secondary">
                 <span>Időpontfoglalás</span>
               </button>
             </a>
           </div>
         </div>
         <div class="separator"></div>
-        <div class="col three">
+        <div class="worker-container">
           <div class="pictureholder">
             <img class="profilepictures" src="" alt="" />
           </div>
@@ -79,7 +84,7 @@
           <p class="side">Mesterfodrász</p>
           <div class="buttonholder">
             <a href="https://n634317.yclients.com/">
-              <button class="reserve small">
+              <button class="btn btn-secondary">
                 <span>Időpontfoglalás</span>
               </button>
             </a>
@@ -89,7 +94,7 @@
         <div class="group margin"></div>
       </div>
     </div>
-    <div id="connect" class="section bg">
+    <div id="connect" name="connect" class="section bg">
       <div class="container">
         <h1>Kapcsolat</h1>
         <div id="connection-design">
