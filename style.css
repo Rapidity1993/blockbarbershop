@@ -825,7 +825,8 @@ img {
 /*GALERY SECTION*/
 
 #galery-section {
-  margin-top: 50px;
+  height: 500px;
+  margin-top: 150px;
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
