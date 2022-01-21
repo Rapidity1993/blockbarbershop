@@ -29,9 +29,9 @@ a {
 }
 #connection-design {
   background-color: #bd8f4a;
-  border-radius: 5px;
-  border: 2px #333 solid;
+  border: 1px white solid;
   color: white;
+  text-decoration: underline;
 }
 .container {
   position: relative;
