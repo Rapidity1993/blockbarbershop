@@ -174,7 +174,7 @@ h1.hero:after {
 .worker-container {
   margin-left: auto;
   margin-right: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.81);
   max-width: 400px;
   border-radius: 7%;
 }
@@ -300,7 +300,7 @@ p {
   margin-bottom: 20px;
 }
 .profilepictures {
-  height: 220px;
+  height: 300px;
 }
 .col .imgholder {
   height: 50%;
