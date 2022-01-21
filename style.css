@@ -22,7 +22,7 @@ a {
   color: #333;
 }
 #firstSection {
-  background-color: #333;
+  background-color: rgb(255, 255, 255);
 }
 #firstSection-price {
   padding-top: 50px;
@@ -343,7 +343,6 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   border-color: #c7a065;
-  border-radius: 6px;
   user-select: none;
   background-color: transparent;
   font-size: 1.5rem;
@@ -352,7 +351,7 @@ p {
 .btn-primary {
   color: #fff;
   background: #bd8f4a linear-gradient(180deg, #c7a065, #bd8f4a) repeat-x;
-  box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 8%);
+  padding: 14px;
 }
 .btn-secondary {
   font-size: 1.1rem;
@@ -799,7 +798,7 @@ img {
 
 @-webkit-keyframes fade {
   from {
-    opacity: 0.25;
+    opacity: 0.3;
   }
   to {
     opacity: 1;
@@ -808,7 +807,7 @@ img {
 
 @keyframes fade {
   from {
-    opacity: 0.25;
+    opacity: 0.3;
   }
   to {
     opacity: 1;
@@ -816,7 +815,13 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 450px) {
+  .main-image-container {
+    margin-top: 120px;
+  }
+  #firstSection {
+    padding: 5px;
+  }
   .text {
     font-size: 11px;
   }
