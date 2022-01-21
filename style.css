@@ -139,11 +139,10 @@ ul.nav li a {
 
 .hero {
   padding-left: 10px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Roboto Slab", Arial, sans-serif;
 
   color: white;
   font-weight: normal;
-  letter-spacing: 4px;
 }
 
 h1.hero {
@@ -175,9 +174,9 @@ h1.hero:after {
 .worker-container {
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(0, 0, 0, 0.81);
+  background-color: #c7a065;
   max-width: 400px;
-  border-radius: 7%;
+  background-image: url("images/Krisz.jpeg");
 }
 
 .worker-container h1,
@@ -783,7 +782,7 @@ img {
   color: white;
 }
 img {
-  max-height: 690px;
+  max-height: 1000px;
 }
 .logo-image {
   width: 170px;
