@@ -573,11 +573,14 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 1em;
   height: 100%;
   display: flex;
   align-items: center;
   cursor: pointer;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .nav-toggle-label span,
