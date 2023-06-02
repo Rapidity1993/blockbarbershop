@@ -174,9 +174,8 @@ h1.hero:after {
 .worker-container {
   margin-left: auto;
   margin-right: auto;
-  background-color: #c7a065;
+  background-color: rgba(0, 0, 0, 0.9);
   max-width: 400px;
-  background-image: url("images/Krisz.jpeg");
 }
 
 .worker-container h1,
@@ -301,6 +300,8 @@ p {
 }
 .profilepictures {
   height: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 .col .imgholder {
   height: 50%;
@@ -863,8 +864,8 @@ img {
   /* border: 3px solid #fff; */
 }
 .menu-btn__burger {
-  width: 50px;
-  height: 4px;
+  width: 40px;
+  height: 2px;
   background: black;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
@@ -874,8 +875,8 @@ img {
 .menu-btn__burger::after {
   content: "";
   position: absolute;
-  width: 50px;
-  height: 4px;
+  width: 40px;
+  height: 2px;
   background: black;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
