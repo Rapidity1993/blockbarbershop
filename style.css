@@ -45,6 +45,10 @@ a {
   overflow: hidden;
 }
 
+.flex-pic {
+  display: flex;
+}
+
 .section .container {
   padding: 30px 0 50px 0;
 }
@@ -175,7 +179,7 @@ h1.hero:after {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(0, 0, 0, 0.9);
-  max-width: 400px;
+  width: 350px;
 }
 
 .worker-container h1,
@@ -482,6 +486,9 @@ h2 {
   .header {
     height: auto;
     background: #eee;
+  }
+  .flex-pic {
+    display: block;
   }
   #logo {
     position: initial;
