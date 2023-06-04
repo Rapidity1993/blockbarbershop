@@ -62,7 +62,6 @@ a {
 /*
   Header
 */
-
 .hold {
   height: 80px;
 }
@@ -128,6 +127,19 @@ ul.nav li a {
   color: initial;
   text-decoration: initial;
 }
+
+#navbar {
+  display: flex;
+  background-color: white;
+  padding-right: 180px;
+  padding-left: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 /*
   Slider
 */
@@ -179,7 +191,7 @@ h1.hero:after {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(0, 0, 0, 0.9);
-  width: 350px;
+  width: 320px;
 }
 
 .worker-container h1,
@@ -486,6 +498,11 @@ h2 {
   .header {
     height: auto;
     background: #eee;
+  }
+  #navbar {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
   }
   .flex-pic {
     display: block;
